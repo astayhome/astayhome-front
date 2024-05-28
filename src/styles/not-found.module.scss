@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.body{
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.main{
+  position: relative;
+
+  svg {
+    font: 10.5em 'Monoton';
+    min-width: 280px;
+    min-height: 200px;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  h1{
+    text-align: center;
+    font-weight: bold;
+    color: #3e3e3e;
+  }
+  
+  a{
+     display: inline-block;
+     text-transform: uppercase;
+     background-color: #e0575c;
+     border-radius: 4px;
+     color: white;
+     margin: 15px 0;
+     padding: 8px 14px;
+     text-decoration: none;
+  }
+  
+}
+
+
+.content{
+  text-align: center;
+}
+
+
+.text {
+    fill: none;
+    stroke-dasharray: 8% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 1%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text:nth-child(1){
+	stroke: #e0575c;
+	animation-delay: -1;
+}
+
+.text:nth-child(2){
+	stroke: #3d3d3d;
+	animation-delay: -2s;
+}
+
+.text:nth-child(3){
+	stroke: #be123c;
+	animation-delay: -3s;
+}
+
+.text:nth-child(4){
+	stroke: #3e90f0;
+	animation-delay: -4s;
+}
+
+.text:nth-child(5){
+	stroke: #4ec568;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {
+    stroke-dashoffset: -35%;
+  }
+}

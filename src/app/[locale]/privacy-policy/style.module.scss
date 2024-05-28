@@ -1,0 +1,35 @@
+.privatePolicyPage{
+  h1, h2, h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  a:-webkit-any-link {
+    color: rgb(0, 0, 222);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+  h1{
+    font-size: 30px;
+  }
+
+  h3{
+    font-size: 16px;
+  }
+
+  ul{
+    margin: 16px 0;
+    padding-left: 40px;
+    list-style: disc;
+  }
+
+  p{
+    margin-bottom: 16px;
+  }
+
+  li{
+    margin-bottom: 10px;
+  }
+}

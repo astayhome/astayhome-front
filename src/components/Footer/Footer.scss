@@ -1,0 +1,29 @@
+// .footerDivineLine::after {
+//   content: "";
+//   position: absolute;
+//   bottom: 0;
+//   left: 50%;
+//   transform: translate(-50%, 100%);
+//   width: 100%;
+//   border: 1px solid var(--color-gray);
+
+// }
+
+
+// @media (min-width: 350px){
+//   .footerDivineLine::after {
+//     width: calc(100% - 4rem);
+//   }
+// }
+
+// @media (min-width: 770px){
+//   .footerDivineLine::after {
+//       width: calc(100% - 5rem);
+//   }
+// }
+
+// @media (min-width: 1280px){
+//   .footerDivineLine::after {
+//     width: calc(100% - 10rem);
+//   }
+// }

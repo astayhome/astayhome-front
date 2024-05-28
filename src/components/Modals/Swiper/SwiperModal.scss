@@ -1,0 +1,33 @@
+.swiper-pagination-fraction {
+  background: hsla(0, 0%, 0%, 0.5) !important;
+  width: unset !important;
+  padding: 8px 10px !important;
+  left: 50% !important;
+  border-radius: 5px !important;
+  color: white !important;
+  transform: translateX(-50%) !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: white !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 100% !important;
+  transition: all !important;
+}
+
+.swiper-button-prev::after{
+  position: relative !important;
+  right: 3px !important;
+}
+
+.swiper-button-next::after {
+  position: relative !important;
+  left: 3px !important;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  color: white !important;
+  background: rgb(0, 0, 0 , 0.7) !important;
+}

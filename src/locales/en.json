@@ -1,0 +1,527 @@
+{
+  "RootLayout": {
+    "home_link": "Home",
+    "about_link": "About",
+    "guestbook_link": "Guestbook",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up",
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
+    "made_with": "Made with"
+  },
+  "Locale": {
+    "en": "EN",
+    "ru": "RU"
+  },
+  "Header": {
+    "Pattaya": "Pattaya",
+    "Location": "Location",
+    "add_dates": "Add dates",
+    "add_guests": "Add guests",
+    "add_dates_small_search": "Add guests",
+    "value": "Pattaya",
+    "where_going": "Travel dates",
+    "Guests": "Guests",
+    "Check_in": "Check in",
+    "Check_out": "Check out",
+    "start_search": "Start your search",
+    "Apartments": "Apartments",
+    "Transfers": "Transfers",
+    "For Owners": "For Owners",
+    "For Owners mobile": "Owners",
+    "All_Complexes": "All Complexes",
+    "Complexes": "Complexes",
+    "About_us": "About us",
+    "How_many_guests": "How many guests are coming?",
+    "Rooms": "Rooms",
+    "How_many_rooms": "How many rooms do you need?",
+    "Search": "Search",
+    "Filters": "Filters",
+    "When's your trip?": "When's your trip?",
+    "Feel free to chose best dates!": "Feel free to chose best dates!",
+    "Clear": "Clear",
+    "Next": "Next",
+    "Back": "Back",
+    "More information": "More information",
+    "Find your perfect place!": "Find your perfect place!"
+  },
+  "MainHero": {
+    "rent_an_apart": "Rent an apartment in Pattaya with payment upon arrival.",
+    "meeting_in_airport": "Meeting at the airport."
+  },
+  "ListingCards": {
+    "Lux": "Lux",
+    "Pattaya": "Pattaya",
+    "Description not found": "Description not found",
+    "room in": "room in",
+    "night": "night",
+    "rooms": "rooms",
+    "This room no available": "This room no available",
+    "Load more": "Load more",
+    "Promo": "Promo",
+    "Loading": "Loading"
+  },
+  "Reviews": {
+    "Show all": "Show all",
+    "Show more": "Show more",
+    "Modal Title": "All Reviews",
+    "Positive": "Positive - What I like:",
+    "Negative": "Negative - What I don't like:",
+    "name": "Your name can be here",
+    "defReviewText": "There are no reviews yet. You could be the first one.",
+    "roomType": "Gorgeous view"
+  },
+  "ContactUs": {
+    "Contacts": "Contacts",
+    "Contact us": "Contact us",
+    "Send us an enquiry now and get a discount": "Send us an enquiry now and get a discount",
+    "Name": "Name",
+    "Email": "Email",
+    "E-mail": "E-mail",
+    "Phones": "Phones",
+    "Phone": "Phone",
+    "Message": "Message",
+    "Phone Number": "Phone Number",
+    "Terms": "I hereby consent to the processing of my personal data on the terms established by the",
+    "Policy": "privacy policy",
+    "Send": "Send",
+    "Leave request": "Leave request",
+    "Not Available": "Not Available",
+    "ErrorMessage": "Min length 10 char",
+    "ErrorServer": "Sorry, server error. Come back later",
+    "ErrorPhoneMin": "min length 10 numbers",
+    "ErrorPhone": "Use only numbers",
+    "ErrorEmail": "min length 2 char",
+    "ErrorName": "min length 2 char",
+    "Next": "Next",
+    "Reserve": "Reserve",
+    "Order now and get a discount!": "Order now and get a discount!",
+    "Please fill in the fields below and our manager will contact you shortly!": "Please fill in the fields below and our manager will contact you shortly!",
+    "Contact form": "Contact form",
+    "Address": "Address",
+    "Work Time": "Work time"
+  },
+  "SwitcherTransfer": {
+    "Do you need transfer?": "Do you need transfer?",
+    "NO": "NO",
+    "YES": "YES"
+  },
+  "Title": {
+    "Rooms with": "Rooms with",
+    "Share": "Share",
+    "beautiful view": "beautiful view",
+    "Pattaya": "Pattaya",
+    "Thailand": "Thailand"
+  },
+  "Gallery": {
+    "Show all photos": "Show all photos",
+    "Photos": "Photos"
+  },
+  "Description": {
+    "Lux": "Lux",
+    "Pattaya": "Pattaya",
+    "Thailand": "Thailand",
+    "John": "John",
+    "Description not found": "Description not found",
+    "Room in": "room in",
+    "by": "by",
+    "guests": "{count, plural, =1 {guest} other {guests}}",
+    "bedroom": "{count, plural, =1 {bedroom} other {bedrooms}}",
+    "bed": "bed",
+    "bathroom": "{count, plural, =1 {bathroom} other {bathrooms}}",
+    "About apartment": "About apartment",
+    "Host of apartment": "Host of apartment"
+  },
+  "Reservation": {
+    "Pattaya": "Pattaya",
+    "Please choose dates": "Please choose dates",
+    "Reserve": "Reserve",
+    "Sorry, not available": "Sorry, not available",
+    "night": "night",
+    "nights": "{count, plural, =1 {night} other {nights}}",
+    "Total": "Total"
+  },
+  "ReservationModal": {
+    "Fill contacts": "Fill contacts",
+    "Taxi from airport": "Taxi from airport",
+    "Taxi to airport": "Taxi to airport",
+    "Success": "Success",
+    "We received your purchase request": "We received your purchase request.",
+    "we'll be in touch shortly!": "we'll be in touch shortly!"
+  },
+  "TransferFrom": {
+    "Modal Title": "Transfer from airport",
+    "Modal Text": "Complete the form below for a custom airport transfer quote!",
+    "Plane arrival date": "Plane arrival date",
+    "Flight number": "Flight number",
+    "Min 2 char and 1 number": "Min 2 char and 1 number",
+    "Max length = 6": "Max length = 6",
+    "Example - AA 1234 or AA1234": "Example - AA 1234 or AA1234",
+    "Name on Signage": "Name on Signage",
+    "Min length = 2": "Min length = 2",
+    "How many guests": "How many guests",
+    "Can be 1 or more": "Can be 1 or more",
+    "Use only numbers": "Use only numbers",
+    "How many bags": "How many bags",
+    "Must be positive": "Must be positive",
+    "Phone number": "Phone number",
+    "Min length 10 numbers": "Min length 10 numbers",
+    "Back": "Back",
+    "Next": "Next",
+    "Reserve": "Reserve",
+    "Submit": "Submit"
+  },
+  "TransferTo": {
+    "Modal Title": "Transfer to airport",
+    "Modal Text": "Complete the form below for a custom airport transfer quote!",
+    "Pattaya": "Pattaya",
+    "Pick up Location": "Pick up Location",
+    "Pick up date": "Pick up date",
+    "Pick up time": "Pick up time",
+    "Min length = 2": "Min length = 2",
+    "How many guests": "How many guests",
+    "Can be 1 or more": "Can be 1 or more",
+    "Use only numbers": "Use only numbers",
+    "How many bags": "How many bags",
+    "Must be positive": "Must be positive",
+    "Phone number": "Phone number",
+    "Min length 10 numbers": "Min length 10 numbers",
+    "Back": "Back",
+    "Next": "Next",
+    "Reserve": "Reserve",
+    "Submit": "Submit"
+  },
+  "Amenities": {
+    "What this place offers": "What this place offers",
+    "Show less": "Show less",
+    "Show all amenities": "Show all {count} amenities"
+  },
+  "VariantReviews": {
+    "reviews": "reviews",
+    "review": "review",
+    "zeroReviews": "reviews"
+  },
+  "TransferPageText": {
+    "From Airport": "From Airport",
+    "To Airport": "To Airport",
+    "h1": "Our Fleet",
+    "Desc": "<p>To make your stay even more comfortable, we offer you our transfer services. We understand that arriving in an unfamiliar city can be a bit stressful, so our professional drivers will be waiting for you at the airport and will guarantee to safely and comfortably transport you to the apartments.</p><p>No need to worry about finding a taxi – we'll take care of everything. Our company takes pride in its high level of service and impeccable reputation. We offer a wide selection of vehicles to meet any of our clients' needs, whether it's a comfortable sedan for a solo traveler or couple, a spacious minivan for a family, or a minibus for a large group.</p><p>Don't postpone your convenience – book your transfer now and enjoy a worry-free journey!</p>",
+    "Sedan Car": "Sedan Car",
+    "Sedan Car Desc": "<p>Passengers: 2 Luggage: 2</p><p>Airport Meet & Greet with Signboard, All Toll Fees Included</p><p>Price (Suvarnabhumi Airport): 1400 THB</p>",
+    "Minivan Car": "Minivan Car",
+    "Minivan Car Desc": "<p>Passengers: 4 Luggage: 4</p><p>Airport Meet & Greet with Signboard, All Toll Fees Included</p><p>Price (Suvarnabhumi Airport): 1600 THB</p>",
+    "Minibus": "Minibus",
+    "Minibus Desc": "<p>Passengers: 8 Luggage: 8</p><p>Airport Meet & Greet with Signboard, All Toll Fees Included</p><p>Price (Suvarnabhumi Airport): 2400 THB</p>",
+    "Vip Sedan Car": "Vip Sedan Car",
+    "Vip Sedan Car Desc": "<p>Passengers: 2 Luggage: 2</p><p>Airport Meet & Greet with Signboard, All Toll Fees Included</p><p>Price (Suvarnabhumi Airport): 7500 THB</p>",
+    "Vip Minivan Car": "Vip Minivan Car",
+    "Vip Minivan Car Desc": "<p>Passengers: 4 Luggage: 4</p><p>Airport Meet & Greet with Signboard, All Toll Fees Included</p><p>Price (Suvarnabhumi Airport): 8500 THB</p>"
+  },
+  "ProfitCalculator": {
+    "Profit": "Profit",
+    "Profit Calculator": "Profit Calculator",
+    "This field is required": "This field is required",
+    "Min 2 char": "Min 2 char",
+    "Type of property": "Type of property",
+    "Apartment": "Apartment",
+    "Villa": "Villa",
+    "Message": "Message",
+    "ErrorServer": "Sorry, server error. Come back later",
+    "Send": "Calculate",
+    "Modal Title": "Profit Calculator",
+    "Modal Text": "Please fill in the fields below and our manager will provide you with a ready calculation of the object's profit",
+    "How many rooms": "How many bedrooms?",
+    "ComplexName": "Complex name"
+  },
+  "ForOwnersPageText": {
+    "Ask a question": "Ask a question",
+    "ModalText": "Please fill in the fields below and our manager will contact you shortly!",
+    "Hero Title": "Income from Real Estate in Pattaya",
+    "Hero Text": "Your rental income is our concern. We take care of all administrative responsibilities, including tenant management and property maintenance",
+    "Services Title": {
+      "first": "Full Property",
+      "second": "Management Services"
+    },
+    "Services Text": "Comprehensive management of rental properties: from Cozy Apartments to Grand Villas",
+    "Property": "Property",
+    "Services Property1": {
+      "title": "Care",
+      "value": ""
+    },
+    "Services Property2": {
+      "title": "Management",
+      "value": ""
+    },
+    "Leave request": "Leave request",
+    "Properties1": {
+      "Inspection/Maintenance": {
+        "title": "Inspection/Maintenance",
+        "value": "We are committed to ensuring the comfortable stay of each guest. We pay attention to every detail because they matter for the overall experience. It is important to us that even minor issues, such as a burnt-out light bulb or a lack of napkins, do not disrupt our guests' enjoyment. We guarantee that all guest requests and inquiries will be promptly addressed by us"
+      },
+      "Housekeeping": {
+        "title": "Housekeeping",
+        "value": "Fast and high-quality cleaning plays a key role in the successful operation of a management company. Satisfied guests are more likely to leave positive reviews, which helps attract new visitors. That's why we carefully select our cleaning staff. It is important to us that each employee has experience working in global hotels."
+      },
+      "Linen and toiletries": {
+        "title": "Linen and toiletries",
+        "value": "During cleaning, we ensure the replenishment of toilet paper, napkins, soap, and shampoo, as well as the replacement of towels and bed linen."
+      },
+      "Bill payments": {
+        "title": "Bill payments",
+        "value": "We cover the expenses for taxes, duties, and utilities. We guarantee timely payment of all bills. Information on transactions is provided in the report for the previous period."
+      }
+    },
+    "Properties2": {
+      "Multiple listings": {
+        "title": "Multiple listings",
+        "value": "We will take care of placing and regularly updating advertisements for your property on various apartment aggregator websites and our own platforms. Professional management of your property's advertising and reputation online will help attract more attention from website users and bring in more guests"
+      },
+      "Professional photography": {
+        "title": "Professional photography",
+        "value": "Most people are visual. Several high-quality photographs can showcase the advantages of your apartments better than a thousand words. We offer professional photographer services to create attractive listings. We are confident that we can best highlight all the amenities of your property."
+      },
+      "Price optimization": {
+        "title": "Price optimization",
+        "value": "Optimizing prices at market-average levels helps our team maintain a high rating for listings. Smart price management during peak demand periods and downturns in tourist activity ensures property owners have a steady income even during periods of low demand."
+      },
+      "Guest vetting/Check in": {
+        "title": "Guest vetting/Check in",
+        "value": "Guest arrival is a special moment. We aim for guests to feel welcomed as soon as they enter the apartments. Lengthy check-in procedures are a thing of the past: we strive to make check-in as prompt as possible. We respond promptly and warmly to requests for cleaning, taxi bookings, food orders, or excursion arrangements. This approach encourages guest return visits and enhances the ratings of our apartments online."
+      }
+    },
+    "Booking Title": {
+      "first": "We feature",
+      "second": "your property on multiple booking channels"
+    },
+    "Packages Title": "Packages of services",
+    "Packages Service1": {
+      "title": "Management",
+      "subTitle": "We guarantee to help increase the return of your property investments. Minimizing vacancy period and property securing is our top priority.",
+      "endTitle": "Leave your request for the special offer",
+      "packages": {
+        "Property preparation": "Property preparation",
+        "Photo / video shoots": "Photo / video shoots",
+        "Marketing plan": "Marketing plan",
+        "Listing creation": "Listing creation",
+        "Guest management": "Guest management",
+        "Water, electric, check": "Water, electric, check",
+        "Air conditioning maintenance": "Air conditioning maintenance",
+        "Insect control": "Insect control",
+        "Bill payments": "Bill payments",
+        "Finance report": "Finance report"
+      }
+    },
+    "Packages Service2": {
+      "title": "Care",
+      "subTitle": "Professional property care. Your apartment is always clean and everything is working well.",
+      "endTitle": "Leave your request for the special offer",
+      "packages": {
+        "Full ventilation": "Full ventilation",
+        "Fresh clean": "Fresh clean",
+        "Deep clean with laundry": "Deep clean with laundry",
+        "Water, electric, check": "Water, electric, check",
+        "Air conditioning maintenance": "Air conditioning maintenance",
+        "Laundry services": "Laundry services",
+        "Insect control": "Insect control",
+        "Bill payments": "Bill payments",
+        "Finance report": "Finance report"
+      }
+    }
+  },
+  "FAQ": {
+    "FAQ Title": {
+      "first": "Your Questions",
+      "second": "answered"
+    },
+    "ForOwnersPage": {
+      "1": {
+        "title": "What services do you offer and how much does it cost?",
+        "value": "We offer a wide range of property management services. This may include aspects such as marketing and leasing, screening potential tenants for reliability and financial stability, maintaining accounting and managerial records, as well as conducting regular inspections and technical maintenance. The cost of our services depends on the package you choose and the type of property. Leave your request to receive a special offer."
+      },
+      "2": {
+        "title": "Why do I need property management?",
+        "value": "Property management allows you to rid yourself of unnecessary worries. We act as your reliable point of contact for tenants, handling rent collection, maintenance and repairs, as well as document preparation. This is particularly beneficial if you lack experience in property management or reside in another country."
+      },
+      "3": {
+        "title": "What does your tenant screening entail?",
+        "value": "Identity verification, including passport details and visa, as well as analysis of the guest's previous booking history."
+      },
+      "4": {
+        "title": "What happens when a tenant vacates a property?",
+        "value": "Upon check-out, we conduct an inspection of the property. If any damages are found, we determine their cause. If the damage is caused by the tenant, it is reimbursed at their expense. Identifying the damage is straightforward, as we photograph the property before each new guest arrival."
+      },
+      "5": {
+        "title": "How do you handle security deposits?",
+        "value": "Most of the time, security deposits are held by us. After the tenant checks out, the deposit is returned to the guest, except in cases where damages are found in the apartments. Before returning the deposit, a check of the premises' condition is conducted. If damage is found, its repair is covered by funds from the deposit."
+      },
+      "6": {
+        "title": "Can a property manager help me avoid bad tenants?",
+        "value": "We can significantly reduce the risk by conducting thorough checks on new guests. This includes documentation verification and screening against special databases even before the guest's arrival. Based on our past experience, guests from India and China are not permitted for rental"
+      },
+      "7": {
+        "title": "How are rent collection and bills handled?",
+        "value": "Rent can be deposited directly into your local Thai bank account 1 time in a month."
+      },
+      "8": {
+        "title": "What happens if a tenant does damage?",
+        "value": "Damages to the property will be deducted from the security deposit. If there is not enough deposit to cover all expenses, guest must add the necessary amount."
+      },
+      "9": {
+        "title": "If I live in another country, can I receive income from renting out my property to a bank account in my country?",
+        "value": "All income for the reporting period, is sent to your account only in a local Thai bank."
+      },
+      "10": {
+        "title": "What is the procedure for documentation between the customer and the management company?",
+        "value": "The contract is concluded in person in our office. If the personal presence of the customer is impossible no need to worry, we can organize it online."
+      }
+    },
+    "TransfersPage": {
+      "1": {
+        "title": "What if my flight arrives ahead of schedule or is delayed?",
+        "value": "With our Meet & Greet service, we've got you covered. Just provide your flight number when booking your airport taxi, and we'll keep tabs on your flight's status, adjusting your pick-up time accordingly. Upon touchdown, your driver will wait for 60 minutes, ensuring you have more than enough time to navigate through security, collect your baggage, and make your way to the arrivals area to meet your driver."
+      },
+      "2": {
+        "title": "What's included in the price?",
+        "value": "Our prices encompass all taxes, fees, gratuity, and toll road charges. For airport pick-ups, our standard offering includes Meet & Greet, where we monitor your flight and wait for 60 minutes post-arrival. For return trips to the airport or any non-airport pick-ups, your driver will wait for 15 minutes after the scheduled pick-up time. Please note that certain special requests or amendments to your journey may incur additional costs."
+      },
+      "3": {
+        "title": "How do I pay?",
+        "value": "Payment for our private transport services is settled directly with the driver upon completion of the trip. Currency exchange services are available both at the airport and within the city, and your driver can guide you to the nearest exchange counter."
+      },
+      "4": {
+        "title": "Can I cancel my booking?",
+        "value": "Certainly. You have the flexibility to cancel your booking free of charge up to 24 hours prior to your scheduled pick-up time. Refer to your booking confirmation for further details."
+      }
+    }
+  },
+  "AboutUsPageText": {
+    "About Us": "About Us",
+    "Main Text Title": "Astay",
+    "Main Text": " - a Thai company specializing in real estate management. We have been on the market for over 6 years and offer a wide range of services to our clients, proud of our experience and professionalism.",
+    "Content": {
+      "2": {
+        "title": "Quality and efficiency:",
+        "value": "<p>Ensuring comfort, coziness, and a high level of service not only strengthens the loyalty of our clients, turning them into repeat guests, but also adds additional value to the apartments. This allows them to be rented out at competitive prices on the market and ensures a stable income regardless of the season. Providing a quality product, perfect relaxation, and positive experiences for clients and reliable income for owners are the key factors of success!</p><p>We adhere to the philosophy of sensible relaxation, where apartments are filled with a unique atmosphere, attention to detail, pleasant aromas, soft lighting, and modern comfortable interior design. Proper location of the residential complex is also important. We choose the most convenient and attractive areas where guests can easily reach major attractions, visit the best restaurants, shopping centers, and promenades to feel at home.</p><p>Our team is a collective of talented and dedicated professionals who share a common passion for hospitality and service. We strive to ensure that each of our clients feels at home, providing a high level of service and a personalized approach to each request. We take pride in our experience and expertise in real estate management, and we also offer a wide range of hospitality services. Your pleasure and comfort are our priority.</p>"
+      },
+      "What_we_do": {
+        "title": "<span>What we do</span>:",
+        "text": {
+          "1": {
+            "title": "Property management:",
+            "value": "Our team provides professional management of your properties, including rental, maintenance, and tenant interaction."
+          },
+          "2": {
+            "title": "Cleaning and laundry:",
+            "value": "We offer quality cleaning and laundry services for maximum guest comfort. We have over 10 housekeepers with extensive experience in hotels and apartments."
+          },
+          "3": {
+            "title": "Transfers:",
+            "value": "Organization of airport pickups with personalized signage and transfers to all locations in Thailand in new vehicles with experienced drivers."
+          },
+          "4": {
+            "title": "Tours in Thailand:",
+            "value": "We are ready to assist our clients in planning exciting trips around Thailand so they can enjoy the diverse cultural and natural attractions of this amazing country."
+          },
+          "5": {
+            "title": "Car and scooter rental:",
+            "value": "We offer a wide selection of cars and scooters for rent so our clients can freely explore Thailand and discover its beauty at their own pace."
+          }
+        }
+      }
+    }
+  },
+  "ButtonSubmit": {
+    "Success": "We received your request",
+    "Loading": "Loading",
+    "Error": "Error"
+  },
+  "LeaveReview": {
+    "Success": "Success",
+    "Thanks for submitted review": "Thanks for submitted review.",
+    "Please share your impression of the apartment": "Please share your impression of the apartment",
+    "Was it clean in the apartment": "Was it clean in the apartment?",
+    "Did you feel comfortable": "Did you feel comfortable?",
+    "Did you like service": "Did you like service?",
+    "Please rate apartment": "Please rate apartment",
+    "ErrorRating": "Rating can't be 0",
+    "Notes": "Please take a moment to share your experience with us. We value what you have to say",
+    "Modal Title": "Answer",
+    "Write your impression her": "Write your impression her",
+    "Submit review": "Submit review",
+    "Name": "Name",
+    "ErrorName": "min length 2 char"
+  },
+  "PaymentInfo": {
+    "Check-In": "Check-In",
+    "Check-Out": "Check-Out",
+    "Guests": "Guests",
+    "night": "night",
+    "guests": "{count, plural, =1 {guest} other {guests}}",
+    "nights": "{count, plural, =1 {night} other {nights}}",
+    "Total": "Total",
+    "Transfer form airport": "Transfer form airport",
+    "Transfer to airport": "Transfer to airport",
+    "How to pay": "How to pay?",
+    "Make transfer to card": "Make transfer to card",
+    "Deal of the Day": "Deal of the Day",
+    "If you pay now": "If you pay now, total prise"
+  },
+  "Index": {
+    "defaultTitle": "Astay - Real estate in Pattaya, Thailand | Rent properties, car and scooter",
+    "meta_description": "Real estate management, offering property services, transfers, tours, and vehicle rental in Thailand. Our focus is on quality, efficiency, and guest satisfaction.",
+    "meta_keywords": "Real estate in Pattaya, Rent properties in Pattaya, Rent an apartment in Pattaya, Rent car in Thailand, Rent car in Pattaya, Rent scooter in Thailand, Rent scooter in Pattaya, Thai company, real estate management, property management, airport transfers, tours in Thailand, car rental, scooter rental, hospitality services, comfort, efficiency, professionalism, personalized approach, quality service, reliable income, premier hospitality, experienced team, guest satisfaction, property owners, Thailand"
+  },
+  "Apartment": {
+    "meta_title": "Apartment",
+    "meta_description": "Astay best hotel ever"
+  },
+  "TransfersPage": {
+    "meta_title": "Pattaya Airport Transfers | Comfortable Rides",
+    "meta_description": "Safe and comfortable airport transfers to Pattaya. Wide range of transport options available.  All Toll Fees Included. Book now!",
+    "meta_keywords": "Pattaya Transfer Services, Transfers, Transportation Services, Airport Taxi Pattaya, Airport Transfers Pattaya, Pattaya Taxi Service, Suvarnabhumi Airport Transfers, Pattaya Hotel Shuttle, Pattaya Airport Pickup, Pattaya Airport Drop-off, Pattaya Airport Transportation, Suvarnabhumi Airport Taxi, Pattaya VIP Transfers, Pattaya Private Airport Transfers, Pattaya Group Transfers, Pattaya Airport Meet & Greet, Pattaya Car Rental, Pattaya Minibus Service, Pattaya Airport Shuttle Service, Pattaya Sedan Transfer, Pattaya Minivan Transfer, Pattaya VIP Car Service"
+  },
+  "ForOwnersPage": {
+    "meta_title": "Income from Real Estate in Pattaya",
+    "meta_description": "Get real estate income in Pattaya - Your rental income is our concern. We take care of all administrative responsibilities, including tenant management and property maintenance",
+    "meta_keywords": "Condominium Management, House Management, Villa Management, Estate Management, Full Rental Service, rent or sell your property, holiday rental, long-term tenancy, Inventory and Damage Check, Home Inspection, Rental Fee Collection, Maintenance and Repair Advice, take care of an owners’ investment, maximum return on your investment, comprehensive property management, realty management, rental management company, real estate asset management, condo management companies, cleaning service pattaya, cleaning pattaya"
+  },
+  "AboutUsPage": {
+    "meta_title": "Astay - Premier Real Estate Management | Hospitality Services",
+    "meta_description": "Astay specializes in real estate management, offering property services, cleaning, transfers, tours, and vehicle rental in Thailand. Our focus is on quality, efficiency, and guest satisfaction.",
+    "meta_keywords": "Astay, Thai company, real estate management, property management, cleaning services, laundry services, airport transfers, tours in Thailand, car rental, scooter rental, hospitality services, comfort, efficiency, professionalism, personalized approach, quality service, reliable income, premier hospitality, experienced team, guest satisfaction, property owners, Thailand"
+  },
+  "PrivacyPolicyPage": {
+    "meta_title": "Grande Carribean sea view apartments Jomtien beach, Pattaya South – Updated 2024 Prices",
+    "meta_description": "Featuring free Wifi, private parking, and pool with a view, the recently renovated property Grande Carribean sea view apartments Jomtien beach offers..."
+  },
+  "LeaveReviewPage": {
+    "meta_title": "Leave a review about your stay",
+    "meta_description": "Leave a review about your stay with us."
+  },
+  "PaymentPage": {
+    "meta_title": "Payment",
+    "meta_description": "Payment page"
+  },
+  "Complexes": {
+    "meta_title": "Complexes in Pattaya – Updated 2024 Prices",
+    "meta_description": "Explore list of Complexes in Pattaya in 2024 with detailed description, facilities, photos. Check available offers for rent, apartments types, unit plans. Request more information from Astay.",
+    "meta_keywords": "Complexes in Pattaya, Complexes in Thailand, Astay",
+    "Complexes": "Complexes",
+    "Open": "Open"
+  },
+  "Complex": {
+    "meta_title": "Complex {name} in Pattaya, Thailand",
+    "meta_description": "",
+    "meta_keywords": "Complex {name} in Pattaya, Complex {name} in Thailand",
+    "About complex": "About complex",
+    "Apartments in this complex": "Apartments in this complex",
+    "No apartments have been added": "No apartments have been added.",
+    "Please come back later": "Please come back later.",
+    "beautiful view": "beautiful view",
+    "guests": "{count, plural, =1 {guest} other {guests}}",
+    "rooms": "{count, plural, =1 {apartment} other {apartments}}"
+  },
+  "rooms": "bedroom",
+  "Load more": "Show more",
+  "Loading": "Loading"
+}

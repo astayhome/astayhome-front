@@ -1,0 +1,24 @@
+.reviewsSection{
+  position: relative;
+}
+.reviewsSection::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  height: 2px;
+  border-top: 2px solid var(--color-gray);
+}
+
+.reviewsSection::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  height: 2px;
+  border-top: 2px solid var(--color-gray);
+}

@@ -1,0 +1,147 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import '../components/AppHeader/AppHeader.scss';
+@import '../components/MainHeroTitle/MainHeroTitle.scss';
+@import '../components/Reviews/Reviews.scss';
+@import '../components/Footer/Footer.scss';
+@import '../components/ContactUs/ContactForm.scss';
+@import '../components/FAQ/FAQCard.scss';
+@import '../components/ForOwners/Services/ServiceCards/Card/Card.scss';
+@import '../components/Modals/Swiper/SwiperModal.scss';
+@import '../components/TransferForm/TransferForm.scss';
+@import '../components/UI/Switcher/Switcher.scss';
+@import '../components/LeaveReviewForm/LeaveReviewForm.scss';
+
+
+//gold #e2ad4f
+// main #3e368f
+:root {
+	--color-primary: hsl(245, 45%, 39%);
+	--color-primary-80: hsl(245, 45%, 39%, 80%);
+	--color-primary-50: hsl(245, 45%, 39%, 50%);
+  --color-bg-accent: hsl(245, 45%, 39%, 3%);
+  --color-white: #ffffff;
+	--color-background: var(--color-white);
+  --color-gold: hsl(38, 72%, 60%);
+  --color-gold-80: hsl(38, 72%, 60%, 80%);
+  --color-gold-50: hsl(38, 72%, 60%, 50%);
+
+  --color-active: #3d3d3d;
+  --color-white-80: rgba(255, 255, 255, 0.8);
+
+  --color-text: #3e3e3e;
+	--color-text-black: #000000;
+	--color-placeholder: #969696;
+	--color-stroke: #E6E6E6;
+	--color-gray: #b8b8b8;
+	--color-light-gray: #f0f2f4;
+  --color-accent: #be123c;
+
+	--color-error: #ff7a7a;
+	--color-info: #3e90f0;
+	--color-warning: #ffcd3a;
+	--color-success: #4ec568;
+
+  --color-whatsapp: #25d366;
+  --color-telegram: #229ED9;
+  --color-youtube: #FF0000;
+  
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text);
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.swiper-lazy-preloader {
+  border-color: var(--color-gold) !important;
+  border-top-color: transparent !important;
+}
+
+.swiper-pagination-bullet {
+  min-width: 12px !important;
+  min-height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+
+.rdrDayDisabled {
+  background-color: hsl(0, 0%, 85%) !important;
+}
+
+.rdrDayDisabled .rdrDayNumber span {
+  color: hsl(205, 17%, 75%) !important;
+}
+
+.rdrMonth {
+  width: 100% !important;
+}
+
+.rdrMonthName{
+  display: none !important;
+}
+
+.rdrCalendarWrapper {
+  font-size: 16px !important;
+  width: 100% !important;
+}
+
+.invalid {
+  border: 1px solid var(--color-error) !important;
+  box-shadow: 0 1.5px 0 0 var(--color-error) !important;
+}
+
+.invalid:focus {
+  outline: 2px solid var(--color-error) !important;
+}
+
+@media (hover: hover) {
+
+  .specialIconHover:hover{
+    color: var(--color-gold) !important;
+  }
+
+  .specialIconHover:active{
+    color: var(--color-gold) !important;
+  }
+
+  .specialHover:hover {
+    background-color: var(--color-gold);
+    border-color: var(--color-gold) !important;
+  }
+  .specialHover:active {
+    background-color: var(--color-gold);
+    transform: scale3d(0.9, 0.9, 1);
+  }
+}
+
+@media (hover: none) {
+
+  .specialIconHover:active{
+    color: var(--color-gold) !important;
+  }
+
+  .specialHover:active {
+    background-color: var(--color-gold);
+    transform: scale3d(0.9, 0.9, 1);
+    transition-duration: 150ms;
+  }
+}

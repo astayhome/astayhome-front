@@ -1,0 +1,109 @@
+$color-gray-shade-1: #E4E4E4;
+$color-gray-shade-2: #C4C4C4;
+$radius: 3px;
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  overflow: hidden;
+  
+  &__form {
+    margin: auto;
+    padding: 20px;
+    
+    h1 {
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+  }
+
+  
+  &__textarea {
+    display: flex;
+    flex-direction: column;
+    
+    textarea {
+      border: 1px solid var(--color-stroke);
+      margin: 10px 0;
+      padding: 10px;
+      resize: none;
+    }
+    
+    label {
+      color: var(--color-text);
+      font-size: 13px;
+      font-style: italic;
+      font-weight: 300;
+      margin-bottom: 15px;
+    }
+  }
+  
+  &__btns {
+    display: flex;
+    justify-content: flex-end;
+    
+    .btn {
+      margin-left: 10px;
+    }
+  }
+  
+}
+
+
+.burmanRadio {
+  margin-bottom: 10px;
+
+  @media (max-width: 640px) {
+    margin-bottom: 0px;
+  }
+  
+  &__input {
+    display: none;
+    
+    &:checked ~ .burmanRadio__label::after {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  &__label {
+    cursor: pointer;
+    line-height: 30px;
+    position: relative;
+    margin-left: 35px;
+    
+    &::before, &::after {
+      border-radius: 50%;
+      position: absolute;
+      top: -1.5px; left: -35px;
+      transition: all .3s ease-out;
+      z-index: 2;
+    }
+    
+    &::before {
+      content: "";
+      border: 1.5px solid $color-gray-shade-1;
+      width: 20px; height: 20px;
+    }
+    
+    &::after{
+      position: absolute;
+      content: url('./ui/check.svg');
+      background: var(--color-primary);
+      border: 1.5px solid var(--color-primary-80);
+      color: #FFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      width: 20px; height: 20px;
+      transform: scale(0);
+    }
+    
+    &:hover {
+      &::before { border-color: var(--color-primary); }
+    }
+  }
+}

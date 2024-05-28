@@ -1,0 +1,93 @@
+.heroTitle {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 15px;
+  border-radius: 12px;
+  transform: translate3D(0, 40px, 0);
+  // background-color: var(--color-light-gray);
+  border: 1px solid transparent;
+  opacity: 0;
+  color: transparent;
+}
+
+@media (max-width: 990px) {
+  .heroTitle {
+  font-size: 16px;
+  }
+  .heroTitle span:nth-child(1) {
+    display: block;
+  }
+  .heroTitle svg {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 14px;
+  }
+}
+
+.animate{
+  animation: shine 1s 100ms linear normal forwards;
+}
+
+.checkSymbol {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  opacity: 0;
+  animation: checkbox 900ms 2s ease-out normal forwards;
+}
+
+
+.firstPath {
+fill: var(--color-success)
+}
+
+.secondPath {
+  fill: var(--color-light-gray);
+}
+
+.strokePath {
+  fill: none;
+  stroke: var(--color-success);
+  stroke-width: 6;
+  stroke-linecap: butt;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+  animation: draw 2s 2.5s normal forwards ease;
+}
+
+@keyframes checkbox {
+  to{
+    opacity: 100;
+  }
+}
+
+@keyframes draw {
+  from{
+    stroke: var(--color-white);
+  }
+  to {
+    stroke: var(--color-white);
+    stroke-dasharray: 100;
+    stroke-dashoffset: 3;
+  }
+}
+
+@keyframes shine {
+
+  to {
+    opacity: 100;
+    transform: translate3D(0, 10px, 0);
+    // background-color: var(--color-light-gray);
+    border: 1px solid var(--color-gray);
+    color: black;
+  }
+}
