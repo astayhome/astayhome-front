@@ -14,7 +14,8 @@ export type ListingTranslate = {
   Lux: string;
   Pattaya: string;
   'Description not found': string;
-  'room in': string;
+  apartment: string;
+  in: string;
   night: string;
   rooms: string;
   'This room no available': string;
@@ -44,7 +45,8 @@ async function ListingSection({ searchParams, locale }: ListingSectionProps) {
     'Description not found': t('Description not found'),
     Pattaya: t('Pattaya'),
     'Load more': t('Load more'),
-    'room in': t('room in'),
+    apartment: t('apartment'),
+    in: t('in'),
     night: t('night'),
     rooms: t('rooms'),
     'This room no available': t('This room no available'),

@@ -105,8 +105,8 @@ function CardItem(props: CardItemProps) {
       </div>
       <div className="flex items-center justify-between">
         <h2 className="line-clamp-1 text-lg font-semibold">
-          <span className="capitalize">{category}</span> {translate['room in']}{' '}
-          {translate.Pattaya}
+          <span className="capitalize">{category}</span> {translate.apartment}{' '}
+          {translate.in} {translate.Pattaya}
         </h2>
         {review_scores_rating && (
           <div className="flex flex-nowrap items-center justify-center gap-1 pr-2 text-lg">

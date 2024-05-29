@@ -52,7 +52,7 @@ export default async function Description(props: DescriptionProps) {
     <div className={`${className} flex flex-col`} {...otherProps}>
       <div>
         <h2 className="text-lg font-medium first-letter:uppercase lg:text-3xl">
-          {category} {t('Room in')} {t('Pattaya')}, {country}
+          {category} {t('Room')} {t('in')} {t('Pattaya')}, {country}
         </h2>
         <div className="flex flex-wrap items-center gap-2 text-sm">
           <div className="flex items-center justify-center gap-1">
