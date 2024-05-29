@@ -124,14 +124,14 @@
     "Thailand": "Тайланд",
     "John": "Джон",
     "Description not found": "Описание не найдено",
-    "Room": "апартамент",
+    "Room": "апартаменты",
     "in": "в",
     "by": "от",
     "guests": "{count, plural, =1 {гость} =2 {гостя} =3 {гостя} =4 {гостя} other {гостей}}",
     "bedroom": "{count, plural, =1 {комната} =2 {комнаты} =3 {комнаты} =4 {комнаты} other {комнат}}",
     "bed": "кроватей",
     "bathroom": "{count, plural, =1 {ванна} other {ванных}}",
-    "About apartment": "О апартаменте",
+    "About apartment": "Об апартаментах",
     "Host of apartment": "Хозяин квартиры"
   },
   "Reservation": {

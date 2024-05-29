@@ -48,11 +48,26 @@ export default async function Description(props: DescriptionProps) {
   const { category } = getTranslation(roomCategory?.translations, locale);
   const { country } = getTranslation(locationDetails?.translations, locale);
 
+  let title = (
+    <>
+      {t('Room')} <span className="lowercase">{category}</span> {t('in')}{' '}
+      {t('Pattaya')}, {country}
+    </>
+  );
+
+  if (locale === 'en') {
+    title = (
+      <>
+        {category} {t('Room')} {t('in')} {t('Pattaya')}, {country}
+      </>
+    );
+  }
+
   return (
     <div className={`${className} flex flex-col`} {...otherProps}>
       <div>
         <h2 className="text-lg font-medium first-letter:uppercase lg:text-3xl">
-          {category} {t('Room')} {t('in')} {t('Pattaya')}, {country}
+          {title}
         </h2>
         <div className="flex flex-wrap items-center gap-2 text-sm">
           <div className="flex items-center justify-center gap-1">
