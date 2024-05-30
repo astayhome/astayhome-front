@@ -1,11 +1,10 @@
-import Link from 'next/link';
 import { type FC } from 'react';
 
 import BiChevronLeft from '@/components/svg/ico/bi/BiChevronLeft';
 import BiSearch from '@/components/svg/ico/bi/BiSearch';
 import useQuery from '@/hooks/useQuery';
 import type { HeaderTranslation } from '@/libs/actions/getLocalization/getLocalization';
-import { usePathname } from '@/libs/i18nNavigation';
+import { Link, usePathname } from '@/libs/i18nNavigation';
 
 interface SearchProps {
   className?: string;
@@ -32,6 +31,7 @@ const AppSearchBarMobile: FC<SearchProps> = ({
               prefetch={false}
               href="/"
               className="absolute left-1 rounded-full bg-white p-2 shadow-md duration-300 active:scale-90"
+              aria-label="Go to main page"
             >
               <BiChevronLeft className="size-5" />
             </Link>

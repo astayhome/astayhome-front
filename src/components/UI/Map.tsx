@@ -16,6 +16,7 @@ export default function GoogleMap({
   className = '',
 }: MapProps) {
   const language = useLocale();
+  console.log(center);
 
   return (
     <APIProvider
@@ -25,7 +26,6 @@ export default function GoogleMap({
     >
       <Map
         mapId="astayMap"
-        reuseMaps
         className={`${className} w-full, h-[400px] overflow-hidden rounded-lg border-none`}
         defaultCenter={{ lat: center[0], lng: center[1] }}
         defaultZoom={center ? 13 : 2}
