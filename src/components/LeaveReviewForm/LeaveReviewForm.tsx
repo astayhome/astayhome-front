@@ -93,52 +93,6 @@ export default function LeaveReviewForm(props: LeaveReviewFormProps) {
         <h1 className="feedback__question text-center  text-lg sm:text-xl">
           {t('Please share your impression of the apartment')}
         </h1>
-
-        <div className="burmanRadio">
-          <input
-            type="checkbox"
-            className="burmanRadio__input"
-            id="radio-1"
-            name="burmanRadio"
-            defaultChecked
-          />
-          <label
-            htmlFor="radio-1"
-            className="burmanRadio__label  text-sm sm:text-base"
-          >
-            {t('Was it clean in the apartment')}
-          </label>
-        </div>
-
-        <div className="burmanRadio">
-          <input
-            type="checkbox"
-            className="burmanRadio__input"
-            id="radio-2"
-            name="burmanRadio"
-          />
-          <label
-            htmlFor="radio-2"
-            className="burmanRadio__label  text-sm sm:text-base"
-          >
-            {t('Did you feel comfortable')}
-          </label>
-        </div>
-
-        <div className="burmanRadio">
-          <input
-            type="checkbox"
-            className="burmanRadio__input"
-            id="radio-4"
-            name="burmanRadio"
-          />
-          <label
-            htmlFor="radio-4"
-            className="burmanRadio__label  text-sm sm:text-base"
-          >
-            {t('Did you like service')}
-          </label>
-        </div>
         <h2 className="text-center font-bold">{t('Please rate apartment')}</h2>
         <div className="flex flex-col items-center justify-center">
           <Rating
@@ -158,7 +112,7 @@ export default function LeaveReviewForm(props: LeaveReviewFormProps) {
             placeholder={t('Write your impression her')}
             {...register('textarea')}
           />
-          <label htmlFor="textarea">({t('Notes')})</label>
+          <label htmlFor="textarea">{t('Notes')}</label>
         </div>
 
         <div className="flex justify-end">
